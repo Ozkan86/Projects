@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEST\\source\\repos\\Eventify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|c:\\users\\test\\source\\repos\\eventify\\controllers\\v2\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|solutionrelative:controllers\\v2\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|c:\\users\\test\\source\\repos\\eventify\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|solutionrelative:services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|c:\\users\\test\\source\\repos\\eventify\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|c:\\users\\test\\source\\repos\\eventify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|c:\\users\\test\\source\\repos\\eventify\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{833CF7C3-3734-46CC-AEC6-34826A59E6C8}|Eventify.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\TEST\\source\\repos\\Eventify\\Controllers\\V2\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\V2\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\TEST\\source\\repos\\Eventify\\Controllers\\V2\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\V2\\AttendanceController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:08:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\TEST\\source\\repos\\Eventify\\Services\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "Services\\AttendanceService.cs",
+              "ToolTip": "C:\\Users\\TEST\\source\\repos\\Eventify\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "Services\\AttendanceService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:58:45.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\TEST\\source\\repos\\Eventify\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\TEST\\source\\repos\\Eventify\\Services\\EventService.cs",
+              "RelativeToolTip": "Services\\EventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T13:11:04.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TEST\\source\\repos\\Eventify\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TEST\\source\\repos\\Eventify\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-12T12:40:04.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TEST\\source\\repos\\Eventify\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TEST\\source\\repos\\Eventify\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T15:12:52.869Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+2025-10-12 16:11:31.710 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-12 16:11:31.783 +03:00 [DBG] Hosting starting
+2025-10-12 16:11:31.815 +03:00 [INF] User profile is available. Using 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 16:11:31.821 +03:00 [DBG] Reading data from file 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys\key-12696017-d083-4453-acae-b2258b92559b.xml'.
+2025-10-12 16:11:31.843 +03:00 [DBG] Reading data from file 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys\key-a21eef25-95a4-4160-8f0b-f7d04f612a9b.xml'.
+2025-10-12 16:11:31.851 +03:00 [DBG] Found key {12696017-d083-4453-acae-b2258b92559b}.
+2025-10-12 16:11:31.860 +03:00 [DBG] Found key {a21eef25-95a4-4160-8f0b-f7d04f612a9b}.
+2025-10-12 16:11:31.870 +03:00 [DBG] Considering key {12696017-d083-4453-acae-b2258b92559b} with expiration date 2025-12-27 13:31:29Z as default key.
+2025-10-12 16:11:31.873 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-12 16:11:31.877 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-12 16:11:31.879 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-12 16:11:31.884 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-12 16:11:31.887 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-12 16:11:31.889 +03:00 [DBG] Using key {12696017-d083-4453-acae-b2258b92559b} as the default key.
+2025-10-12 16:11:31.891 +03:00 [DBG] Key ring with default key {12696017-d083-4453-acae-b2258b92559b} was loaded during application startup.
+2025-10-12 16:11:32.003 +03:00 [INF] Now listening on: http://localhost:5157
+2025-10-12 16:11:32.004 +03:00 [DBG] Loaded hosting startup assembly Eventify
+2025-10-12 16:11:32.005 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 16:11:32.006 +03:00 [INF] Hosting environment: Development
+2025-10-12 16:11:32.007 +03:00 [INF] Content root path: C:\Users\TEST\source\repos\Eventify
+2025-10-12 16:11:32.008 +03:00 [DBG] Hosting started

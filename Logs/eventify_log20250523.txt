@@ -1,0 +1,586 @@
+2025-05-23 21:28:30.618 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-23 21:28:30.649 +03:00 [DBG] Hosting starting
+2025-05-23 21:28:30.657 +03:00 [INF] User profile is available. Using 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-23 21:28:30.660 +03:00 [DBG] Reading data from file 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys\key-a21eef25-95a4-4160-8f0b-f7d04f612a9b.xml'.
+2025-05-23 21:28:30.678 +03:00 [DBG] Found key {a21eef25-95a4-4160-8f0b-f7d04f612a9b}.
+2025-05-23 21:28:30.684 +03:00 [DBG] Considering key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} with expiration date 2025-08-14 17:07:03Z as default key.
+2025-05-23 21:28:30.686 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-23 21:28:30.688 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-23 21:28:30.689 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-23 21:28:30.691 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-23 21:28:30.692 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-23 21:28:30.693 +03:00 [DBG] Using key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} as the default key.
+2025-05-23 21:28:30.694 +03:00 [DBG] Key ring with default key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} was loaded during application startup.
+2025-05-23 21:28:30.789 +03:00 [INF] Now listening on: https://localhost:7170
+2025-05-23 21:28:30.790 +03:00 [INF] Now listening on: http://localhost:5157
+2025-05-23 21:28:30.790 +03:00 [DBG] Loaded hosting startup assembly Eventify
+2025-05-23 21:28:30.791 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-23 21:28:30.791 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-23 21:28:30.792 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-23 21:28:30.851 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 21:28:30.852 +03:00 [INF] Hosting environment: Development
+2025-05-23 21:28:30.852 +03:00 [INF] Content root path: C:\Users\TEST\source\repos\Eventify
+2025-05-23 21:28:30.853 +03:00 [DBG] Hosting started
+2025-05-23 21:28:31.154 +03:00 [DBG] Connection id "0HNCQ4UF9CLGD" accepted.
+2025-05-23 21:28:31.156 +03:00 [DBG] Connection id "0HNCQ4UF9CLGD" started.
+2025-05-23 21:28:31.160 +03:00 [DBG] Connection id "0HNCQ4UF9CLGD" received FIN.
+2025-05-23 21:28:31.160 +03:00 [DBG] Connection id "0HNCQ4UF9CLGE" received FIN.
+2025-05-23 21:28:31.161 +03:00 [DBG] Connection id "0HNCQ4UF9CLGE" accepted.
+2025-05-23 21:28:31.162 +03:00 [DBG] Connection id "0HNCQ4UF9CLGE" started.
+2025-05-23 21:28:31.171 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-23 21:28:31.171 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-23 21:28:31.200 +03:00 [DBG] Connection id "0HNCQ4UF9CLGD" stopped.
+2025-05-23 21:28:31.200 +03:00 [DBG] Connection id "0HNCQ4UF9CLGE" stopped.
+2025-05-23 21:28:31.202 +03:00 [DBG] Connection id "0HNCQ4UF9CLGD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-23 21:28:31.202 +03:00 [DBG] Connection id "0HNCQ4UF9CLGE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-23 21:28:31.240 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" accepted.
+2025-05-23 21:28:31.241 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" started.
+2025-05-23 21:28:31.274 +03:00 [DBG] Connection 0HNCQ4UF9CLGF established using the following protocol: "Tls13"
+2025-05-23 21:28:31.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - -
+2025-05-23 21:28:31.390 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-23 21:28:31.415 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-05-23 21:28:31.416 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:28:31.461 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-23 21:28:31.463 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-23 21:28:31.471 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 51.4729 ms
+2025-05-23 21:28:31.473 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-23 21:28:31.474 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-23 21:28:31.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 163.7158ms
+2025-05-23 21:28:31.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - -
+2025-05-23 21:28:31.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_vs/browserLink - -
+2025-05-23 21:28:31.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.js - -
+2025-05-23 21:28:31.489 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-05-23 21:28:31.490 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:28:31.492 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.3654 ms
+2025-05-23 21:28:31.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.js - - - 200 - application/javascript;charset=utf-8 7.2097ms
+2025-05-23 21:28:31.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - - - 200 13752 application/javascript;+charset=utf-8 8.2505ms
+2025-05-23 21:28:31.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.6950ms
+2025-05-23 21:28:31.568 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/v2/swagger.json - -
+2025-05-23 21:28:31.568 +03:00 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2025-05-23 21:28:31.569 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:28:31.578 +03:00 [INF] HTTP GET /swagger/v2/swagger.json responded 200 in 9.1624 ms
+2025-05-23 21:28:31.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 12.4182ms
+2025-05-23 21:28:54.371 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7170/api/v2/Auth/login application/json 61
+2025-05-23 21:28:54.379 +03:00 [DBG] 2 candidate(s) found for the request path '/api/v2/Auth/login'
+2025-05-23 21:28:54.382 +03:00 [DBG] Endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)' with route pattern 'api/v{version:apiVersion}/Auth/login' is valid for the request path '/api/v2/Auth/login'
+2025-05-23 21:28:54.384 +03:00 [DBG] Endpoint 'Eventify.Controllers.AuthController.Login (Eventify)' with route pattern 'api/v{version:apiVersion}/Auth/login' is valid for the request path '/api/v2/Auth/login'
+2025-05-23 21:28:54.389 +03:00 [DBG] Request matched endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:28:54.390 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-23 21:28:54.392 +03:00 [DBG] The request has an origin header: 'https://localhost:7170'.
+2025-05-23 21:28:54.392 +03:00 [INF] CORS policy execution failed.
+2025-05-23 21:28:54.393 +03:00 [INF] Request origin https://localhost:7170 does not have permission to access the resource.
+2025-05-23 21:28:54.417 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-23 21:28:54.420 +03:00 [INF] Executing endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:28:54.437 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Eventify.DTOs.LoginDto) on controller Eventify.Controllers.V2.AuthController (Eventify).
+2025-05-23 21:28:54.439 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-23 21:28:54.440 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-23 21:28:54.441 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:28:54.442 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-23 21:28:54.443 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:28:54.446 +03:00 [DBG] Executing controller factory for controller Eventify.Controllers.V2.AuthController (Eventify)
+2025-05-23 21:28:54.550 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-23 21:28:54.564 +03:00 [DBG] Executed controller factory for controller Eventify.Controllers.V2.AuthController (Eventify)
+2025-05-23 21:28:54.570 +03:00 [DBG] Attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' ...
+2025-05-23 21:28:54.573 +03:00 [DBG] Attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' using the name '' in request data ...
+2025-05-23 21:28:54.574 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-05-23 21:28:54.580 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF", Request id "0HNCQ4UF9CLGF:0000000B": started reading request body.
+2025-05-23 21:28:54.580 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF", Request id "0HNCQ4UF9CLGF:0000000B": done reading request body.
+2025-05-23 21:28:54.584 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Eventify.DTOs.LoginDto'
+2025-05-23 21:28:54.585 +03:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:28:54.585 +03:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:28:54.586 +03:00 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' ...
+2025-05-23 21:28:54.593 +03:00 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:28:55.018 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2025-05-23 21:28:55.062 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Username == __username_0 && u.Password == __password_1)'
+2025-05-23 21:28:55.166 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Required MaxLength(50), 1], [Property: User.Password (string) Required MaxLength(50), 2], [Property: User.Role (string) Required MaxLength(50), 3], [Property: User.Username (string) Required MaxLength(50), 4] }
+            SELECT TOP(1) u.Id, u.Email, u.Password, u.Role, u.Username
+            FROM Users AS u
+            WHERE (u.Username == @__username_0) && (u.Password == @__password_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Eventify.Data.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-05-23 21:28:55.192 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-23 21:28:55.194 +03:00 [DBG] Creating DbConnection.
+2025-05-23 21:28:55.213 +03:00 [DBG] Created DbConnection. (17ms).
+2025-05-23 21:28:55.219 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (26ms).
+2025-05-23 21:28:55.226 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (35ms).
+2025-05-23 21:28:55.230 +03:00 [DBG] Opening connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:28:55.374 +03:00 [DBG] Opened connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:28:55.381 +03:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-05-23 21:28:55.417 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-05-23 21:28:55.443 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:28:55.458 +03:00 [DBG] Closing data reader to 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:28:55.463 +03:00 [DBG] A data reader for 'EventifyDb' on server 'OZKAN\SQLEXPRESS' is being disposed after spending 41ms reading results.
+2025-05-23 21:28:55.465 +03:00 [DBG] Closing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:28:55.469 +03:00 [DBG] Closed connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS' (3ms).
+2025-05-23 21:28:55.474 +03:00 [INF] Kullanıcı giriş yaptı. Kullanıcı adı: Alice Johnson, Rol: Admin
+2025-05-23 21:28:55.530 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-23 21:28:55.532 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-23 21:28:55.533 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-23 21:28:55.533 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-23 21:28:55.534 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-23 21:28:55.535 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 21:28:55.541 +03:00 [INF] Executed action Eventify.Controllers.V2.AuthController.Login (Eventify) in 1094.8522ms
+2025-05-23 21:28:55.543 +03:00 [INF] Executed endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:28:55.544 +03:00 [INF] HTTP POST /api/v2/Auth/login responded 200 in 1154.3770 ms
+2025-05-23 21:28:55.546 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-23 21:28:55.549 +03:00 [DBG] Disposing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:28:55.551 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-05-23 21:28:55.552 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7170/api/v2/Auth/login application/json 61 - 200 - application/json;+charset=utf-8 1180.3526ms
+2025-05-23 21:29:14.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/api/v2/Attendance?sortBy=id&isDescending=false&page=4&pageSize=3 - -
+2025-05-23 21:29:14.801 +03:00 [DBG] 1 candidate(s) found for the request path '/api/v2/Attendance'
+2025-05-23 21:29:14.802 +03:00 [DBG] Endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)' with route pattern 'api/v{version:apiVersion}/Attendance' is valid for the request path '/api/v2/Attendance'
+2025-05-23 21:29:14.803 +03:00 [DBG] Request matched endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:29:14.804 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-23 21:29:14.831 +03:00 [DBG] Successfully validated the token.
+2025-05-23 21:29:14.832 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-05-23 21:29:14.837 +03:00 [DBG] Authorization was successful.
+2025-05-23 21:29:14.838 +03:00 [INF] Executing endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:29:14.842 +03:00 [INF] Route matched with {action = "GetAllAttendances", controller = "Attendance"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAttendances(System.String, Boolean, Int32, Int32) on controller Eventify.Controllers.V2.AttendanceController (Eventify).
+2025-05-23 21:29:14.843 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-23 21:29:14.844 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-23 21:29:14.845 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:29:14.846 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-23 21:29:14.847 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:29:14.848 +03:00 [DBG] Executing controller factory for controller Eventify.Controllers.V2.AttendanceController (Eventify)
+2025-05-23 21:29:14.850 +03:00 [DBG] Executed controller factory for controller Eventify.Controllers.V2.AttendanceController (Eventify)
+2025-05-23 21:29:14.854 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2025-05-23 21:29:14.856 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name 'sortBy' in request data ...
+2025-05-23 21:29:14.857 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:29:14.857 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:29:14.858 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2025-05-23 21:29:14.859 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:29:14.860 +03:00 [DBG] Attempting to bind parameter 'isDescending' of type 'System.Boolean' ...
+2025-05-23 21:29:14.861 +03:00 [DBG] Attempting to bind parameter 'isDescending' of type 'System.Boolean' using the name 'isDescending' in request data ...
+2025-05-23 21:29:14.862 +03:00 [DBG] Done attempting to bind parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:29:14.862 +03:00 [DBG] Done attempting to bind parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:29:14.863 +03:00 [DBG] Attempting to validate the bound parameter 'isDescending' of type 'System.Boolean' ...
+2025-05-23 21:29:14.864 +03:00 [DBG] Done attempting to validate the bound parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:29:14.864 +03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2025-05-23 21:29:14.865 +03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2025-05-23 21:29:14.866 +03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2025-05-23 21:29:14.867 +03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2025-05-23 21:29:14.868 +03:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2025-05-23 21:29:14.868 +03:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2025-05-23 21:29:14.869 +03:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2025-05-23 21:29:14.870 +03:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2025-05-23 21:29:14.870 +03:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:29:14.871 +03:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:29:14.872 +03:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2025-05-23 21:29:14.872 +03:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:29:14.884 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2025-05-23 21:29:14.892 +03:00 [DBG] Compiling query expression: 
+'DbSet<Attendance>()
+    .Include(a => a.Event)
+    .Include(a => a.User)
+    .OrderBy(a => a.Id)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2025-05-23 21:29:14.902 +03:00 [DBG] Including navigation: 'Attendance.Event'.
+2025-05-23 21:29:14.903 +03:00 [DBG] Including navigation: 'Attendance.User'.
+2025-05-23 21:29:14.942 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Attendance>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Attendance.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Attendance.EventId (int) Required FK Index, 1], [Property: Attendance.IsAttending (bool) Required, 2], [Property: Attendance.UserId (int) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: Event.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: Event.Date (DateTime) Required, 5], [Property: Event.Location (string) Required MaxLength(50), 6], [Property: Event.Name (string) Required MaxLength(50), 7] }
+            2 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: User.Email (string) Required MaxLength(50), 9], [Property: User.Password (string) Required MaxLength(50), 10], [Property: User.Role (string) Required MaxLength(50), 11], [Property: User.Username (string) Required MaxLength(50), 12] }
+        SELECT t.Id, t.EventId, t.IsAttending, t.UserId, e.Id, e.Date, e.Location, e.Name, u.Id, u.Email, u.Password, u.Role, u.Username
+        FROM 
+        (
+            SELECT a.Id, a.EventId, a.IsAttending, a.UserId
+            FROM Attendances AS a
+            ORDER BY a.Id ASC
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        INNER JOIN Events AS e ON t.EventId == e.Id
+        INNER JOIN Users AS u ON t.UserId == u.Id
+        ORDER BY t.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Attendance>, 
+    Eventify.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-05-23 21:29:14.944 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-23 21:29:14.945 +03:00 [DBG] Creating DbConnection.
+2025-05-23 21:29:14.946 +03:00 [DBG] Created DbConnection. (0ms).
+2025-05-23 21:29:14.946 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-05-23 21:29:14.947 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2025-05-23 21:29:14.948 +03:00 [DBG] Opening connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:29:14.949 +03:00 [DBG] Opened connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:29:14.950 +03:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[EventId], [t].[IsAttending], [t].[UserId], [e].[Id], [e].[Date], [e].[Location], [e].[Name], [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM (
+    SELECT [a].[Id], [a].[EventId], [a].[IsAttending], [a].[UserId]
+    FROM [Attendances] AS [a]
+    ORDER BY [a].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Events] AS [e] ON [t].[EventId] = [e].[Id]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+ORDER BY [t].[Id]
+2025-05-23 21:29:14.963 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[EventId], [t].[IsAttending], [t].[UserId], [e].[Id], [e].[Date], [e].[Location], [e].[Name], [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM (
+    SELECT [a].[Id], [a].[EventId], [a].[IsAttending], [a].[UserId]
+    FROM [Attendances] AS [a]
+    ORDER BY [a].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Events] AS [e] ON [t].[EventId] = [e].[Id]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+ORDER BY [t].[Id]
+2025-05-23 21:29:14.968 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.982 +03:00 [DBG] The navigation 'Attendance.Event' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.986 +03:00 [DBG] Context 'AppDbContext' started tracking 'Event' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.993 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.994 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.995 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.996 +03:00 [DBG] The navigation 'Attendance.Event' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.997 +03:00 [DBG] Context 'AppDbContext' started tracking 'Event' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.998 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.998 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:14.999 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:15.000 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:15.001 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:29:15.002 +03:00 [DBG] Closing data reader to 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:29:15.003 +03:00 [DBG] A data reader for 'EventifyDb' on server 'OZKAN\SQLEXPRESS' is being disposed after spending 38ms reading results.
+2025-05-23 21:29:15.004 +03:00 [DBG] Closing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:29:15.004 +03:00 [DBG] Closed connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS' (0ms).
+2025-05-23 21:29:15.007 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-23 21:29:15.008 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-23 21:29:15.009 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-23 21:29:15.009 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-23 21:29:15.010 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-23 21:29:15.011 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Eventify.Models.Attendance, Eventify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Eventify.DTOs.AttendanceLinkDto, Eventify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-23 21:29:15.021 +03:00 [INF] Executed action Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify) in 172.7793ms
+2025-05-23 21:29:15.022 +03:00 [INF] Executed endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:29:15.022 +03:00 [INF] HTTP GET /api/v2/Attendance responded 200 in 218.5888 ms
+2025-05-23 21:29:15.023 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-23 21:29:15.024 +03:00 [DBG] Disposing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:29:15.025 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-23 21:29:15.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/api/v2/Attendance?sortBy=id&isDescending=false&page=4&pageSize=3 - - - 200 - application/json;+charset=utf-8 226.7910ms
+2025-05-23 21:31:27.053 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" is closing.
+2025-05-23 21:31:27.054 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" is closed. The last processed stream ID was 13.
+2025-05-23 21:31:27.056 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" received FIN.
+2025-05-23 21:31:27.057 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-23 21:31:27.061 +03:00 [DBG] The connection queue processing loop for 0HNCQ4UF9CLGF completed.
+2025-05-23 21:31:27.063 +03:00 [DBG] Connection id "0HNCQ4UF9CLGF" stopped.
+2025-05-23 21:51:27.252 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-23 21:51:27.283 +03:00 [DBG] Hosting starting
+2025-05-23 21:51:27.291 +03:00 [INF] User profile is available. Using 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-23 21:51:27.293 +03:00 [DBG] Reading data from file 'C:\Users\TEST\AppData\Local\ASP.NET\DataProtection-Keys\key-a21eef25-95a4-4160-8f0b-f7d04f612a9b.xml'.
+2025-05-23 21:51:27.299 +03:00 [DBG] Found key {a21eef25-95a4-4160-8f0b-f7d04f612a9b}.
+2025-05-23 21:51:27.305 +03:00 [DBG] Considering key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} with expiration date 2025-08-14 17:07:03Z as default key.
+2025-05-23 21:51:27.307 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-23 21:51:27.308 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-23 21:51:27.309 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-23 21:51:27.311 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-23 21:51:27.312 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-23 21:51:27.313 +03:00 [DBG] Using key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} as the default key.
+2025-05-23 21:51:27.314 +03:00 [DBG] Key ring with default key {a21eef25-95a4-4160-8f0b-f7d04f612a9b} was loaded during application startup.
+2025-05-23 21:51:27.381 +03:00 [INF] Now listening on: https://localhost:7170
+2025-05-23 21:51:27.382 +03:00 [INF] Now listening on: http://localhost:5157
+2025-05-23 21:51:27.382 +03:00 [DBG] Loaded hosting startup assembly Eventify
+2025-05-23 21:51:27.383 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-05-23 21:51:27.383 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-23 21:51:27.384 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-23 21:51:27.430 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-23 21:51:27.431 +03:00 [INF] Hosting environment: Development
+2025-05-23 21:51:27.432 +03:00 [INF] Content root path: C:\Users\TEST\source\repos\Eventify
+2025-05-23 21:51:27.432 +03:00 [DBG] Hosting started
+2025-05-23 21:51:27.473 +03:00 [DBG] Connection id "0HNCQ5B9F034R" received FIN.
+2025-05-23 21:51:27.476 +03:00 [DBG] Connection id "0HNCQ5B9F034R" accepted.
+2025-05-23 21:51:27.477 +03:00 [DBG] Connection id "0HNCQ5B9F034R" started.
+2025-05-23 21:51:27.485 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-23 21:51:27.497 +03:00 [DBG] Connection id "0HNCQ5B9F034R" stopped.
+2025-05-23 21:51:27.499 +03:00 [DBG] Connection id "0HNCQ5B9F034R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-23 21:51:27.535 +03:00 [DBG] Connection id "0HNCQ5B9F034S" accepted.
+2025-05-23 21:51:27.537 +03:00 [DBG] Connection id "0HNCQ5B9F034S" started.
+2025-05-23 21:51:27.567 +03:00 [DBG] Connection 0HNCQ5B9F034S established using the following protocol: "Tls13"
+2025-05-23 21:51:27.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - -
+2025-05-23 21:51:27.642 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-23 21:51:27.666 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-05-23 21:51:27.667 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:51:27.707 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-05-23 21:51:27.709 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-23 21:51:27.715 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 44.6818 ms
+2025-05-23 21:51:27.717 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-05-23 21:51:27.718 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-23 21:51:27.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - - - 200 - text/html;charset=utf-8 123.4329ms
+2025-05-23 21:51:27.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - -
+2025-05-23 21:51:27.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/_vs/browserLink - -
+2025-05-23 21:51:27.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/index.js - -
+2025-05-23 21:51:27.730 +03:00 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-05-23 21:51:27.730 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:51:27.732 +03:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.2691 ms
+2025-05-23 21:51:27.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/index.js - - - 200 - application/javascript;charset=utf-8 5.7014ms
+2025-05-23 21:51:27.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - - - 200 13752 application/javascript;+charset=utf-8 6.2852ms
+2025-05-23 21:51:27.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.9668ms
+2025-05-23 21:51:27.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/swagger/v2/swagger.json - -
+2025-05-23 21:51:27.781 +03:00 [DBG] No candidates found for the request path '/swagger/v2/swagger.json'
+2025-05-23 21:51:27.782 +03:00 [DBG] Request did not match any endpoints
+2025-05-23 21:51:27.790 +03:00 [INF] HTTP GET /swagger/v2/swagger.json responded 200 in 7.8404 ms
+2025-05-23 21:51:27.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 11.3706ms
+2025-05-23 21:51:45.941 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7170/api/v2/Auth/login application/json 61
+2025-05-23 21:51:45.950 +03:00 [DBG] 2 candidate(s) found for the request path '/api/v2/Auth/login'
+2025-05-23 21:51:45.954 +03:00 [DBG] Endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)' with route pattern 'api/v{version:apiVersion}/Auth/login' is valid for the request path '/api/v2/Auth/login'
+2025-05-23 21:51:45.955 +03:00 [DBG] Endpoint 'Eventify.Controllers.AuthController.Login (Eventify)' with route pattern 'api/v{version:apiVersion}/Auth/login' is valid for the request path '/api/v2/Auth/login'
+2025-05-23 21:51:45.959 +03:00 [DBG] Request matched endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:51:45.960 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-23 21:51:45.962 +03:00 [DBG] The request has an origin header: 'https://localhost:7170'.
+2025-05-23 21:51:45.962 +03:00 [INF] CORS policy execution failed.
+2025-05-23 21:51:45.963 +03:00 [INF] Request origin https://localhost:7170 does not have permission to access the resource.
+2025-05-23 21:51:45.978 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-23 21:51:45.980 +03:00 [INF] Executing endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:51:45.993 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Eventify.DTOs.LoginDto) on controller Eventify.Controllers.V2.AuthController (Eventify).
+2025-05-23 21:51:45.996 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-23 21:51:45.997 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-23 21:51:45.997 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:51:45.998 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-23 21:51:45.999 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:51:46.001 +03:00 [DBG] Executing controller factory for controller Eventify.Controllers.V2.AuthController (Eventify)
+2025-05-23 21:51:46.058 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-23 21:51:46.071 +03:00 [DBG] Executed controller factory for controller Eventify.Controllers.V2.AuthController (Eventify)
+2025-05-23 21:51:46.075 +03:00 [DBG] Attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' ...
+2025-05-23 21:51:46.077 +03:00 [DBG] Attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' using the name '' in request data ...
+2025-05-23 21:51:46.078 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-05-23 21:51:46.083 +03:00 [DBG] Connection id "0HNCQ5B9F034S", Request id "0HNCQ5B9F034S:0000000B": started reading request body.
+2025-05-23 21:51:46.084 +03:00 [DBG] Connection id "0HNCQ5B9F034S", Request id "0HNCQ5B9F034S:0000000B": done reading request body.
+2025-05-23 21:51:46.087 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Eventify.DTOs.LoginDto'
+2025-05-23 21:51:46.088 +03:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:51:46.089 +03:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:51:46.089 +03:00 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'Eventify.DTOs.LoginDto' ...
+2025-05-23 21:51:46.095 +03:00 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'Eventify.DTOs.LoginDto'.
+2025-05-23 21:51:46.507 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2025-05-23 21:51:46.536 +03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.Username == __username_0 && u.Password == __password_1)'
+2025-05-23 21:51:46.635 +03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Required MaxLength(50), 1], [Property: User.Password (string) Required MaxLength(50), 2], [Property: User.Role (string) Required MaxLength(50), 3], [Property: User.Username (string) Required MaxLength(50), 4] }
+            SELECT TOP(1) u.Id, u.Email, u.Password, u.Role, u.Username
+            FROM Users AS u
+            WHERE (u.Username == @__username_0) && (u.Password == @__password_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Eventify.Data.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-05-23 21:51:46.659 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-23 21:51:46.661 +03:00 [DBG] Creating DbConnection.
+2025-05-23 21:51:46.673 +03:00 [DBG] Created DbConnection. (10ms).
+2025-05-23 21:51:46.678 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (18ms).
+2025-05-23 21:51:46.684 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (26ms).
+2025-05-23 21:51:46.688 +03:00 [DBG] Opening connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:51:46.792 +03:00 [DBG] Opened connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:51:46.798 +03:00 [DBG] Executing DbCommand [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-05-23 21:51:46.831 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__username_0='?' (Size = 50), @__password_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 AND [u].[Password] = @__password_1
+2025-05-23 21:51:46.856 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:51:46.871 +03:00 [DBG] Closing data reader to 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:51:46.876 +03:00 [DBG] A data reader for 'EventifyDb' on server 'OZKAN\SQLEXPRESS' is being disposed after spending 40ms reading results.
+2025-05-23 21:51:46.878 +03:00 [DBG] Closing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:51:46.882 +03:00 [DBG] Closed connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS' (3ms).
+2025-05-23 21:51:46.887 +03:00 [INF] Kullanıcı giriş yaptı. Kullanıcı adı: Alice Johnson, Rol: Admin
+2025-05-23 21:51:46.933 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-23 21:51:46.935 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-23 21:51:46.936 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-23 21:51:46.936 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-23 21:51:46.937 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-23 21:51:46.938 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-23 21:51:46.944 +03:00 [INF] Executed action Eventify.Controllers.V2.AuthController.Login (Eventify) in 941.7854ms
+2025-05-23 21:51:46.945 +03:00 [INF] Executed endpoint 'Eventify.Controllers.V2.AuthController.Login (Eventify)'
+2025-05-23 21:51:46.947 +03:00 [INF] HTTP POST /api/v2/Auth/login responded 200 in 986.9923 ms
+2025-05-23 21:51:46.949 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-23 21:51:46.952 +03:00 [DBG] Disposing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:51:46.953 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-05-23 21:51:46.954 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7170/api/v2/Auth/login application/json 61 - 200 - application/json;+charset=utf-8 1013.4205ms
+2025-05-23 21:52:04.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7170/api/v2/Attendance?sortBy=id&isDescending=false&page=4&pageSize=3 - -
+2025-05-23 21:52:04.118 +03:00 [DBG] 1 candidate(s) found for the request path '/api/v2/Attendance'
+2025-05-23 21:52:04.119 +03:00 [DBG] Endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)' with route pattern 'api/v{version:apiVersion}/Attendance' is valid for the request path '/api/v2/Attendance'
+2025-05-23 21:52:04.119 +03:00 [DBG] Request matched endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:52:04.120 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-23 21:52:04.147 +03:00 [DBG] Successfully validated the token.
+2025-05-23 21:52:04.149 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-05-23 21:52:04.153 +03:00 [DBG] Authorization was successful.
+2025-05-23 21:52:04.154 +03:00 [INF] Executing endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:52:04.158 +03:00 [INF] Route matched with {action = "GetAllAttendances", controller = "Attendance"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAttendances(System.String, Boolean, Int32, Int32) on controller Eventify.Controllers.V2.AttendanceController (Eventify).
+2025-05-23 21:52:04.159 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-23 21:52:04.160 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-23 21:52:04.161 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:52:04.162 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-23 21:52:04.163 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-05-23 21:52:04.164 +03:00 [DBG] Executing controller factory for controller Eventify.Controllers.V2.AttendanceController (Eventify)
+2025-05-23 21:52:04.166 +03:00 [DBG] Executed controller factory for controller Eventify.Controllers.V2.AttendanceController (Eventify)
+2025-05-23 21:52:04.169 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2025-05-23 21:52:04.170 +03:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name 'sortBy' in request data ...
+2025-05-23 21:52:04.171 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:52:04.172 +03:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:52:04.173 +03:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2025-05-23 21:52:04.173 +03:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2025-05-23 21:52:04.174 +03:00 [DBG] Attempting to bind parameter 'isDescending' of type 'System.Boolean' ...
+2025-05-23 21:52:04.175 +03:00 [DBG] Attempting to bind parameter 'isDescending' of type 'System.Boolean' using the name 'isDescending' in request data ...
+2025-05-23 21:52:04.176 +03:00 [DBG] Done attempting to bind parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:52:04.177 +03:00 [DBG] Done attempting to bind parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:52:04.177 +03:00 [DBG] Attempting to validate the bound parameter 'isDescending' of type 'System.Boolean' ...
+2025-05-23 21:52:04.178 +03:00 [DBG] Done attempting to validate the bound parameter 'isDescending' of type 'System.Boolean'.
+2025-05-23 21:52:04.179 +03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2025-05-23 21:52:04.179 +03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2025-05-23 21:52:04.180 +03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2025-05-23 21:52:04.181 +03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2025-05-23 21:52:04.182 +03:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2025-05-23 21:52:04.182 +03:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2025-05-23 21:52:04.183 +03:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2025-05-23 21:52:04.184 +03:00 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2025-05-23 21:52:04.184 +03:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:52:04.185 +03:00 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:52:04.186 +03:00 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2025-05-23 21:52:04.186 +03:00 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2025-05-23 21:52:04.198 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2025-05-23 21:52:04.206 +03:00 [DBG] Compiling query expression: 
+'DbSet<Attendance>()
+    .Include(a => a.Event)
+    .Include(a => a.User)
+    .OrderBy(a => a.Id)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2025-05-23 21:52:04.216 +03:00 [DBG] Including navigation: 'Attendance.Event'.
+2025-05-23 21:52:04.218 +03:00 [DBG] Including navigation: 'Attendance.User'.
+2025-05-23 21:52:04.257 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Attendance>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Attendance.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Attendance.EventId (int) Required FK Index, 1], [Property: Attendance.IsAttending (bool) Required, 2], [Property: Attendance.UserId (int) Required FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: Event.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: Event.Date (DateTime) Required, 5], [Property: Event.Location (string) Required MaxLength(50), 6], [Property: Event.Name (string) Required MaxLength(50), 7] }
+            2 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: User.Email (string) Required MaxLength(50), 9], [Property: User.Password (string) Required MaxLength(50), 10], [Property: User.Role (string) Required MaxLength(50), 11], [Property: User.Username (string) Required MaxLength(50), 12] }
+        SELECT t.Id, t.EventId, t.IsAttending, t.UserId, e.Id, e.Date, e.Location, e.Name, u.Id, u.Email, u.Password, u.Role, u.Username
+        FROM 
+        (
+            SELECT a.Id, a.EventId, a.IsAttending, a.UserId
+            FROM Attendances AS a
+            ORDER BY a.Id ASC
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        INNER JOIN Events AS e ON t.EventId == e.Id
+        INNER JOIN Users AS u ON t.UserId == u.Id
+        ORDER BY t.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Attendance>, 
+    Eventify.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-05-23 21:52:04.260 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-23 21:52:04.261 +03:00 [DBG] Creating DbConnection.
+2025-05-23 21:52:04.262 +03:00 [DBG] Created DbConnection. (0ms).
+2025-05-23 21:52:04.262 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-05-23 21:52:04.263 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2025-05-23 21:52:04.264 +03:00 [DBG] Opening connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:52:04.265 +03:00 [DBG] Opened connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:52:04.266 +03:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[EventId], [t].[IsAttending], [t].[UserId], [e].[Id], [e].[Date], [e].[Location], [e].[Name], [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM (
+    SELECT [a].[Id], [a].[EventId], [a].[IsAttending], [a].[UserId]
+    FROM [Attendances] AS [a]
+    ORDER BY [a].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Events] AS [e] ON [t].[EventId] = [e].[Id]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+ORDER BY [t].[Id]
+2025-05-23 21:52:04.274 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[EventId], [t].[IsAttending], [t].[UserId], [e].[Id], [e].[Date], [e].[Location], [e].[Name], [u].[Id], [u].[Email], [u].[Password], [u].[Role], [u].[Username]
+FROM (
+    SELECT [a].[Id], [a].[EventId], [a].[IsAttending], [a].[UserId]
+    FROM [Attendances] AS [a]
+    ORDER BY [a].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Events] AS [e] ON [t].[EventId] = [e].[Id]
+INNER JOIN [Users] AS [u] ON [t].[UserId] = [u].[Id]
+ORDER BY [t].[Id]
+2025-05-23 21:52:04.278 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.292 +03:00 [DBG] The navigation 'Attendance.Event' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.296 +03:00 [DBG] Context 'AppDbContext' started tracking 'Event' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.303 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.304 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.306 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.306 +03:00 [DBG] The navigation 'Attendance.Event' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.307 +03:00 [DBG] Context 'AppDbContext' started tracking 'Event' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.308 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.308 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.310 +03:00 [DBG] Context 'AppDbContext' started tracking 'Attendance' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.310 +03:00 [DBG] The navigation 'Attendance.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.311 +03:00 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-05-23 21:52:04.312 +03:00 [DBG] Closing data reader to 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:52:04.313 +03:00 [DBG] A data reader for 'EventifyDb' on server 'OZKAN\SQLEXPRESS' is being disposed after spending 37ms reading results.
+2025-05-23 21:52:04.313 +03:00 [DBG] Closing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:52:04.314 +03:00 [DBG] Closed connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS' (0ms).
+2025-05-23 21:52:04.317 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-23 21:52:04.318 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-23 21:52:04.319 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-05-23 21:52:04.319 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-05-23 21:52:04.320 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-05-23 21:52:04.321 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Eventify.Models.Attendance, Eventify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Eventify.DTOs.AttendanceLinkDto, Eventify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-23 21:52:04.331 +03:00 [INF] Executed action Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify) in 167.057ms
+2025-05-23 21:52:04.332 +03:00 [INF] Executed endpoint 'Eventify.Controllers.V2.AttendanceController.GetAllAttendances (Eventify)'
+2025-05-23 21:52:04.332 +03:00 [INF] HTTP GET /api/v2/Attendance responded 200 in 212.0888 ms
+2025-05-23 21:52:04.333 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-23 21:52:04.334 +03:00 [DBG] Disposing connection to database 'EventifyDb' on server 'OZKAN\SQLEXPRESS'.
+2025-05-23 21:52:04.335 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-23 21:52:04.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7170/api/v2/Attendance?sortBy=id&isDescending=false&page=4&pageSize=3 - - - 200 - application/json;+charset=utf-8 219.9531ms
+2025-05-23 21:54:15.631 +03:00 [DBG] Connection id "0HNCQ5B9F034S" is closing.
+2025-05-23 21:54:15.632 +03:00 [DBG] Connection id "0HNCQ5B9F034S" is closed. The last processed stream ID was 13.
+2025-05-23 21:54:15.633 +03:00 [DBG] Connection id "0HNCQ5B9F034S" received FIN.
+2025-05-23 21:54:15.635 +03:00 [DBG] Connection id "0HNCQ5B9F034S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-23 21:54:15.641 +03:00 [DBG] The connection queue processing loop for 0HNCQ5B9F034S completed.
+2025-05-23 21:54:15.642 +03:00 [DBG] Connection id "0HNCQ5B9F034S" stopped.
